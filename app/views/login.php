@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <title>Private Page</title>
     <link rel="stylesheet" type="text/css" href="/PrivatePage/public/stylesheets/application.css">
+    <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
 </head>
 <body>
-
 <main>
-    <div id="wrapper-main">
-        <div id="greeting">
+    <div class="wrapper-main">
+        <div class="login-box">
             <h1>Welcome Bálint!</h1>
-        </div>
-
-        <div id="login-box">
-            <form action="../controllers/login_controller.php" method="post">
+            <form class="login-form" action="../controllers/login_controller.php" method="post">
                 <label>Username:
                     <input type="text" name="username">
                 </label>
@@ -26,8 +23,5 @@
         </div>
     </div>
 </main>
-
-
-
 </body>
 </html>
