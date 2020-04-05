@@ -1,31 +1,131 @@
+/* 
+ * Main
+*/
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Actor';
+    font-size: 22px;
+    color: whitesmoke;
+    background: rgb(23,0,0);
+    background: radial-gradient(circle, rgba(23,0,0,1) 15%, rgba(0,0,5,1) 76%);
 }
 
-.topmenu{
+
+/* 
+ * Navigation Bar
+*/
+
+.top-nav{
+    background: #dfe4ea;
     overflow: hidden;
-    background-color: #333;
+    height: 100px;
 }
 
-.topmenu li{
-    float: left;
-}
-
-.topmenu ul {
+.top-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.topmenu a {
-    color: #f2f2f2;
+.top-nav li{
+    float: left;
+}
+
+.top-nav a {
+    color: #751500;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+}
+
+/* 
+ * Login page
+*/
+
+.login-box{
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 2px groove whitesmoke;
+    border-radius: 80px;
+}
+
+.login-box h1{
+    color: #f5f6fa;
+    text-shadow: 1px 1px 1px #AAAAAA;
+    font-weight: 5000;
+}
+
+.login-box input[type = "text"], .login-box input[type = "password"]{
+
+    background: none;
+
+    display: block;
+    margin: 20px auto;    
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    
+    pointer-events: none;
+
+    text-align: center;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+
+    transition: 0.75s;
+}
+
+
+.login-box input[type = "text"]:focus, .login-box input[type = "password"]:focus{
+    width: 350px;
+    border-color: #eb2f06;
+    
+}
+
+.login-box input[type = "text"]:hover:not(:focus), .login-box input[type = "password"]:hover:not(:focus){
+    width: 350px;
+    border-color: #751500;
+}
+
+.login-box button[type = "submit"]{
+    
+    background-color: #f5f6fa;
+
+    display: block;
+    margin: 20px auto;    
+    padding: 14px 40px;
+    width: 150px;
+    outline: none;
+
+    text-align: center;
+    color: #751500;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 1000;
+
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+
+    transition: 0.75s;
+}
+
+.login-box button[type = "submit"]:hover{
+    width: 200px;
+    background: #751500;
+    color: whitesmoke;
 }
