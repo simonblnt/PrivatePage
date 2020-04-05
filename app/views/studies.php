@@ -7,14 +7,19 @@
     <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
 </head>
 <body>
-    <?php
-        include 'partials/header.php'
-    ?>
-<main>
+    <div class="wrapper-main">
+        <?php
+            include 'partials/header.php'
+        ?>
+        
+    
+        <main>
+            <?php
+                include 'partials/studies_sidebar.php'
+            ?>
+        </main>
 
-</main>
-
-
+    </div>
 
 </body>
 </html>

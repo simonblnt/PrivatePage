@@ -11,7 +11,8 @@
     <div class="wrapper-main">
         <div class="login-box">
             <h1>Welcome Bálint!</h1>
-            <form class="login-form" action="../controllers/login_controller.php" method="post">
+            <form class="login-form" action="../controllers/login_controller.php" method="post" autocomplete="off">
+            <!-- TODO: Separate label from input, so hover doesn't apply to the label as well -->
                 <label>Username:
                     <input type="text" name="username">
                 </label>

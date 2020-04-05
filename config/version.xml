@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ - <app>
+       <version>0.1.3</version>
+       <changes>
+            <1>Added studies page</1>
+            <2>Added studies sidebar</2>
+            <4>Added studies styling</4>
+            <3>Added version.xml</3>
+       </changes>
+   </app>
