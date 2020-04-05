@@ -33,8 +33,11 @@ if (isset($_POST['login-submit'])){
                     exit();
                 }
                 else {
-                    header("Location: ../views/index.php?error=wrongPwd");
+                    header("Location: ../views/login.php?error=wrongPwd");
                 }
+            }
+            else {
+                header("Location: ../views/login.php?error=wrongUser");
             }
         }
     }

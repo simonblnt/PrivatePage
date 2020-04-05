@@ -1,5 +1,8 @@
 <?php
-    session_start();
+    if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
 ?>
 
 <!DOCTYPE html>
@@ -11,10 +14,11 @@
 
 <nav class="top-nav">
     <ul>
-        <li><a href="#index.php">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="">Calendar</a></li>
+        <li><a href="studies.php">Studies</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="">Recipies</a></li>
     </ul>
 </nav>
 </body>
