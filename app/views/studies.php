@@ -23,7 +23,7 @@
             
             <div class="wrapper-table">
                 <div class="title-table">
-                    <h1>Subjects</h1>
+                    <h1 class="noselect">Subjects</h1>
                     
                     <button id="add_subject" href="add.php"><i class="fas fa-plus"></i>Add Subject</button>
                 </div>
