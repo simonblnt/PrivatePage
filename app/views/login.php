@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Private Page</title>
-    <link rel="stylesheet" type="text/css" href="/PrivatePage/public/stylesheets/application.css">
+    <link rel="stylesheet" type="text/css" href="/PrivatePage/public/stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="/PrivatePage/public/stylesheets/login.css">
     <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
 </head>
 <body>

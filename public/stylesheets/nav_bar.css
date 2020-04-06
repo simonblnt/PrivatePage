@@ -1,0 +1,37 @@
+/* 
+ * Navigation Bar
+*/
+
+.top-nav{
+    background: #2d3436;
+    overflow: hidden;
+    min-width: fit-content;
+    height: 100px;
+    border-bottom: 2px solid #2f3640;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top-nav li{
+    float: left;
+    margin: auto;
+}
+
+.top-nav a {
+    text-align: center;
+    padding: 10px 50px 10px 100px;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    display: block;
+}
+
+.top-nav a:hover {
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px whitesmoke;
+    transition: 0.40s;
+}

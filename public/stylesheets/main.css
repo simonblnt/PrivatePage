@@ -1,0 +1,38 @@
+/* 
+ * Main
+*/
+
+html, body {
+    margin: 0;
+    font-family: 'Actor';
+    font-size: 22px;
+    color: whitesmoke;
+    background: #dfe6e9;
+    height: 100%;
+}
+
+footer{
+    font-size: 8px;
+    color: black;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.wrapper-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+
