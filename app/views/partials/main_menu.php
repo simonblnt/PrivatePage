@@ -19,7 +19,7 @@
     <div class="content-nav">
         <ul>
             <li class="item" id="home">
-                <a href="index.php" class="menu-btn" ><i class="fas fa-home"></i>Home</a>
+                <a href="/PrivatePage/app/views/index.php" class="menu-btn" ><i class="fas fa-home"></i>Home</a>
             </li>
             <li class="item" id="calendar">
                 <a href="" class="menu-btn"><i class="fas fa-calendar"></i>Calendar</a>
@@ -27,7 +27,7 @@
             <li class="item" id="studies">
                 <a href="#studies" class="menu-btn"><i class="fas fa-university"></i>Studies</a>
                     <div class="sub-menu">
-                        <a href="subjects.php">Subjects</a>
+                        <a href="/PrivatePage/app/views/studies/subjects.php">Subjects</a>
                         <a href="#">Exams</a>
                         <a href="#">Tests</a>
                         <a href="#">Averages</a>
@@ -39,7 +39,8 @@
                 <div class="sub-menu">
                     <a href="subjects.php">Projects</a>
                     <a href="#">Finances</a>
-                    <a href="#">To-do</a>
+                    <a href="#">Tasks</a>
+                    <a href="#">Ideas</a>
                     <a href="#">Contacts</a>
                 </div>
             </li>

@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper-main">
         <?php
-            include 'partials/main_menu.php'
+            include '../partials/main_menu.php'
         ?>
         <main>
             <div class="wrapper-table">
@@ -66,9 +66,9 @@
 
         </main>
     </div>
-    <footer>
-        <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    </footer>
+    <?php
+            include '../partials/footer.php'
+        ?>
 </body>
 
 
