@@ -12,15 +12,9 @@
 <body>
     <div class="wrapper-main">
         <?php
-            include 'partials/header.php'
+            include 'partials/main_menu.php'
         ?>
-        
-    
         <main>
-            <?php
-                include 'partials/studies_sidebar.php'
-            ?>
-            
             <div class="wrapper-table">
                 <div class="title-table">
                     <h1 class="noselect">Subjects</h1>
@@ -66,18 +60,15 @@
                                     </tbody>
                                 </table>
                 </div>
-
             </div>
             
 
 
         </main>
-
-        <footer>
-            <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        </footer>
     </div>
-
+    <footer>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </body>
 
 
