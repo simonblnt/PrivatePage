@@ -10,16 +10,19 @@
     <script src="https://kit.fontawesome.com/399f7f7414.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="wrapper-main">
     <?php
-            include 'partials/main_menu.php'
+        include '../partials/header.php'
+    ?>
+    <div class="wrapper-main">
+        <?php
+                include '../partials/main_menu.php'
         ?>
     <main>
 
     </main>
     </div>
-    <?php
-            include 'partials/footer.php'
+        <?php
+            include '../partials/footer.php'
         ?>
 </body>
 

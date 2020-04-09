@@ -6,18 +6,16 @@
     width: 500px;
     height: 500px;
     padding: 40px;
-    position: relative;
     top: 50%;
     margin: auto;
-    margin-top: 100px;
     text-align: center;
-    border: 2px groove whitesmoke;
+    border: 2px solid whitesmoke;
     border-radius: 80px;
     background: #2d3436;
 }
 
 .login-box h1{
-    color: #f5f6fa;
+    color: var(--main-font-color);
     text-shadow: 1px 1px 1px #AAAAAA;
     font-weight: 5000;
 }
@@ -29,7 +27,7 @@
     display: block;
     margin: 20px auto;    
     padding: 14px 10px;
-    width: 250px;
+    width: 300px;
     outline: none;
     
     pointer-events: none;
@@ -59,7 +57,7 @@
 
 .login-box button[type = "submit"]{
     
-    background-color: #f5f6fa;
+    background-color: var(--main-bg-color);
 
     display: block;
     margin: 20px auto;    
@@ -82,5 +80,5 @@
 .login-box button[type = "submit"]:hover{
     width: 200px;
     background: #751500;
-    color: whitesmoke;
+    color: var(--main-font-color);
 }

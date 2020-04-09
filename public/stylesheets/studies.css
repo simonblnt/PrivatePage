@@ -1,65 +1,13 @@
 /* 
- * Studies - Sidebar
-*/
-
-.sidebar{
-    background: #2d3436;
-    overflow: hidden;
-    min-width: fit-content;
-    width: 17%;
-    height: 100%;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-}
-
-.sidebar li{
-    float: top;
-    margin: auto;
-}
-
-.sidebar a {
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px black;
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar a:hover {
-    color: white;
-    font-size: 25px;
-    text-shadow: 0.5px 0.5px 0.5px whitesmoke;
-    transition: 0.40s;
-}
-
-/* 
  * Studies - Subjects
 */
-
-.wrapper-table {
-    box-sizing: border-box;
-    margin: 7px;
-    margin-bottom: 0px;
-    padding: 0;
-    background: #ecf0f1;
-    color: #2d3436;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
 .title-table{
     margin: 0;
     padding: 2px 15px 2px 15px;
     display: flex;
     flex-direction: row;
-    border-bottom: 5px solid #2f3640;
+    border-bottom: 5px solid var(--secondary-bg-color);
     border-radius: 5pt;
 }
 
@@ -88,7 +36,7 @@
     font-family: inherit;
     font-size: inherit;
 
-    border: 2px solid #2d3436;
+    border: 2px solid var(--secondary-bg-color);
     border-radius: 20px;
 
     display: inline-block;
@@ -108,7 +56,7 @@
 }
 
 .title-table button:hover i{
-    color: #2f3640;
+    color: var(--secondary-bg-color);
 }
 
 .content-table{
@@ -127,10 +75,9 @@
 }
 
 .content-table table thead tr{
-    background-color: #2f3640;
-    color: whitesmoke;
+    background-color: var(--secondary-bg-color);
+    color: var(--main-font-color);
     font-weight: bold;
-    
 }
 
 .content-table th,

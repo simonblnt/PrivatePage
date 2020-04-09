@@ -1,13 +1,24 @@
 /* 
  * Main
 */
+:root {
+    --main-bg-color: #dfe6e9;
+    --secondary-bg-color: #2d3436;
+    --third-bg-color: #0d1013;
+    --content-bg-color: ;
+    --button-color: ;
+    --link-color: ;
+    --main-font-color: whitesmoke;
+    --dark-font-color: #2d3436;
+    --secondary-font-color: ;
+}
 
 html, body {
     margin: 0;
     font-family: 'Actor';
     font-size: 22px;
-    color: whitesmoke;
-    background: #dfe6e9;
+    color: var(--main-font-color);
+    background: var(--main-bg-color);
     height: 100%;
 }
 body{
@@ -15,13 +26,8 @@ body{
     flex-direction: column;
 }
 
-footer{
-    font-size: 8px;
-    color: black;
-}
-
 a {
-    color: whitesmoke;
+    color: var(--main-font-color);
 }
 
 .wrapper-main{
@@ -49,3 +55,61 @@ main {
                                   supported by Chrome, Opera and Firefox */
 }
 
+.wrapper-table {
+    box-sizing: border-box;
+    margin: 7px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    background: var(--main-bg-color);
+    color: var(--dark-font-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+ * Footer
+*/
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+
+    background: var(--secondary-bg-color);
+}
+
+.wrapper-btn{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-title{
+    flex: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button{
+    background-color: transparent;
+
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header h1{
+    flex: 8;
+}
+
+/* 
+ * Footer
+*/
+footer{
+    font-size: 8px;
+    color: black;
+}

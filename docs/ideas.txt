@@ -1,8 +1,9 @@
+2020-04-07:
 **
 * Main
 **
-2020-04-07:
-    - !! should change to a one-page app structure !!
+    - should change to a one-page app structure
+        - maybe 
     - should add a header with only the name of the app
     - it could contain a button, which hides/shows the main nav menu on the side
     - later it could contain the name of the user, with a dropdown menu containing the usual user options
@@ -12,17 +13,30 @@
 **
 * Recipies
 **
-2020-04-07:
-- somewhat bigger rows containing basic infos about the recipie, but they are clickable, and by doing so,
-    the selected recipie will expand like an accordion menu, and show its details like a detailed list of 
-    ingredients, and the detailed instructions with an image as well
-- it has the same pencil and trash icons as other "tables" have
-- it has the same add button as other pages have
-- maybe it shouldn't be a table at all, more like a menu (an accordion menu)
-- if it technically is a table, it should't really appear as one, e.g.: remove the thead
+    - somewhat bigger rows containing basic infos about the recipie, but they are clickable, and by doing so,
+        the selected recipie will expand like an accordion menu, and show its details like a detailed list of 
+        ingredients, and the detailed instructions with an image as well
+    - it has the same pencil and trash icons as other "tables" have
+    - it has the same add button as other pages have
+    - maybe it shouldn't be a table at all, more like a menu (an accordion menu)
+    - if it technically is a table, it should't really appear as one, e.g.: remove the thead
 
 **
 * Work
 **
-2020-04-07:
-- maybe add a timetracker later on
+    - maybe add a timetracker later on
+
+2020-04-09:
+**
+* Login
+**
+    DONE - fix page height
+
+**
+* Main
+**
+    - should change to a one-page app structure
+        -> maybe it should only apply to main pages, e.g.: only one subjects page, only one work page etc.
+    - need something else instead of this accordion menu on the main nav, because sometimes the user have to chase
+        the menu items this way
+    - !! should specify colors as variables !!

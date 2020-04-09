@@ -19,7 +19,7 @@
     <div class="content-nav">
         <ul>
             <li class="item" id="home">
-                <a href="/PrivatePage/app/views/index.php" class="menu-btn" ><i class="fas fa-home"></i>Home</a>
+                <a href="/PrivatePage/app/views/main/index.php" class="menu-btn" ><i class="fas fa-home"></i>Home</a>
             </li>
             <li class="item" id="calendar">
                 <a href="" class="menu-btn"><i class="fas fa-calendar"></i>Calendar</a>
@@ -47,7 +47,7 @@
             <li class="item" id="recipies">
                 <a href="#recipies" class="menu-btn"><i class="fas fa-cookie-bite"></i>Recipies</a>
                 <div class="sub-menu">
-                    <a href="subjects.php">All</a>
+                    <a href="/PrivatePage/app/views/recipies/recipies.php">All</a>
                     <a href="#">Favourites</a>
                 </div>
             </li>

@@ -11,15 +11,15 @@
 </head>
 <body>
     <?php
-            include '../partials/header.php'
+        include '../partials/header.php'
     ?>
     <div class="wrapper-main">
         <?php
             include '../partials/main_menu.php'
         ?>
+
         <main>
-            <div class="wrapper-table">
-                <div class="title-table">
+        <div class="title-table">
                     <h1 class="noselect">Subjects</h1>
                     
                     <button id="add_subject" href="add.php"><i class="fas fa-plus"></i>Add Subject</button>
@@ -63,13 +63,10 @@
                                     </tbody>
                                 </table>
                 </div>
-            </div>
-            
-
-
         </main>
+
     </div>
-    <?php
+        <?php
             include '../partials/footer.php'
         ?>
 </body>

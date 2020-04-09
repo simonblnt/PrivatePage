@@ -4,18 +4,18 @@
 
 .main-nav{
     margin: 0;
-    background: #2d3436;
+    background: var(--secondary-bg-color);
     overflow: hidden;
     min-width: 10%;
     width: 15%;
     height: 100%;
-    border-bottom: 2px solid #2f3640;
+    border-bottom: 2px solid var(--third-bg-color);
     display: block;
 }
 
 .title-nav{
     align-items: center;
-    color: whitesmoke;
+    color: var(--main-font-color);
     margin: 0;
     width: fit-content;
     height: fit-content;
@@ -75,7 +75,7 @@
 
 .sub-menu{
     overflow: hidden;
-    background-color: #0d1013;
+    background-color: var(--third-bg-color);
     align-items: left;
     border-radius: 2px;
     font-size: 0.9em;
