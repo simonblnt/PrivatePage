@@ -40,3 +40,9 @@
     - need something else instead of this accordion menu on the main nav, because sometimes the user have to chase
         the menu items this way
     - !! should specify colors as variables !!
+
+2020-04-10:
+**
+* Recipies
+**
+    - categories could be links, that redirects the user to a filtered list of recipies by that category

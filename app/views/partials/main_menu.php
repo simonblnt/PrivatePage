@@ -13,9 +13,6 @@
 <body>
 
 <div class="main-nav">
-    <!-- <div class="title-nav">
-        <h1 class="noselect">Private Page</h1>
-    </div> -->
     <div class="content-nav">
         <ul>
             <li class="item" id="home">
