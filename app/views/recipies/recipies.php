@@ -28,31 +28,38 @@
                 
                 <div class="recipies-table">
                     <table class="recipies">
-                                    <!-- <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Category</th>
-                                            <th>Time needed</th>
-                                            <th>Link</th>
-                                            <th>Actions</th>
-                                        </tr>
-                                    </thead> -->
-                                    <tbody>
-                                        <tr>
-                                            <td>Fokhagymás tészta</td>
-                                            <td>Tészta</td>
-                                            <td>10 + 15</td>
-                                            <td><a href="" class="recipie-link"></a>to recipie</td>
-                                            <td><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></td>
-                                        </tr>
-                                        <tr>
-                                        <td>Póréhagymás tepsis krumpli</td>
-                                            <td>Krumpli</td>
-                                            <td>20 + 35</td>
-                                            <td><a href="" class="recipie-link"></a>to recipie</td>
-                                            <td><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></td>                                        </tr>
-                                    </tbody>
-                                </table>
+                        <!-- <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Time needed</th>
+                                <th>Link</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                            <tr class="main-row">
+                                <td>Fokhagymás tészta</td>
+                                <td>Tészta</td>
+                                <td>10 + 15</td>
+                                <td><a href="" class="recipie-link"></a>to recipie</td>
+                                <td><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td colspan="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quisquam.</td>
+                            </tr>
+                            <tr class="main-row">
+                                <td>Póréhagymás tepsis krumpli</td>
+                                <td>Krumpli</td>
+                                <td>20 + 35</td>
+                                <td><a href="" class="recipie-link"></a>to recipie</td>
+                                <td><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td colspan="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quisquam.</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
