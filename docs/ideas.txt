@@ -46,3 +46,16 @@
 * Recipies
 **
     - categories could be links, that redirects the user to a filtered list of recipies by that category
+
+2020-04-10:
+**
+* Recipies
+**
+    - should add a counter to each recipie: "times cooked"/"times made" or something like that
+    - could add a calorie tracker later
+
+2020-04-10:
+**
+* Main
+**
+    - main menu could look like the discord options menu

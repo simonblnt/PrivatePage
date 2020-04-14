@@ -5,9 +5,6 @@
 </head>
 <body>
     <header>
-        <div class="wrapper-btn">
-            <button><i class="fas fa-bars"></i></button>
-        </div>
         <div class="wrapper-title">
             <h1>Private Page</h1>
         </div>
