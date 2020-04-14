@@ -13,43 +13,34 @@
 <body>
 
 <div class="main-nav">
-    <!-- <div class="title-nav">
-        <h1 class="noselect">Private Page</h1>
-    </div> -->
     <div class="content-nav">
         <ul>
             <li class="item" id="home">
-                <a href="/PrivatePage/app/views/main/index.php" class="menu-btn" ><i class="fas fa-home"></i>Home</a>
+                <a href="/PrivatePage/app/views/main/index.php" class="menu-btn separate" >Home</a>
             </li>
             <li class="item" id="calendar">
-                <a href="" class="menu-btn"><i class="fas fa-calendar"></i>Calendar</a>
+                <a href="" class="menu-btn separate">Calendar</a>
             </li>
             <li class="item" id="studies">
-                <a href="#studies" class="menu-btn"><i class="fas fa-university"></i>Studies</a>
-                    <div class="sub-menu">
-                        <a href="/PrivatePage/app/views/studies/subjects.php">Subjects</a>
-                        <a href="#">Exams</a>
-                        <a href="#">Tests</a>
-                        <a href="#">Averages</a>
-                        <a href="#">Contacts</a>
-                    </div>
+                <p class="menu-title noselect">Studies</p>
+                <a href="/PrivatePage/app/views/studies/subjects.php" class="menu-btn">Subjects</a>
+                <a href="#" class="menu-btn">Exams</a>
+                <a href="#" class="menu-btn">Tests</a>
+                <a href="#" class="menu-btn">Averages</a>
+                <a href="#" class="menu-btn separate">Contacts</a>
             </li>
             <li class="item" id="work">
-                <a href="#work" class="menu-btn"><i class="fas fa-briefcase"></i>Work</a>
-                <div class="sub-menu">
-                    <a href="subjects.php">Projects</a>
-                    <a href="#">Finances</a>
-                    <a href="#">Tasks</a>
-                    <a href="#">Ideas</a>
-                    <a href="#">Contacts</a>
-                </div>
+                <p class="menu-title noselect">Work</p>
+                <a href="subjects.php" class="menu-btn">Projects</a>
+                <a href="#" class="menu-btn">Finances</a>
+                <a href="#" class="menu-btn">Tasks</a>
+                <a href="#" class="menu-btn">Ideas</a>
+                <a href="#" class="menu-btn separate">Contacts</a>
             </li>
             <li class="item" id="recipies">
-                <a href="#recipies" class="menu-btn"><i class="fas fa-cookie-bite"></i>Recipies</a>
-                <div class="sub-menu">
-                    <a href="/PrivatePage/app/views/recipies/recipies.php">All</a>
-                    <a href="#">Favourites</a>
-                </div>
+                <p class="menu-title noselect">Recipies</p>
+                <a href="/PrivatePage/app/views/recipies/recipies.php" class="menu-btn">All</a>
+                <a href="#" class="menu-btn separate">Favourites</a>
             </li>
         </ul>
     </div>

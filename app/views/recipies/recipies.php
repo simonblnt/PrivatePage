@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/PrivatePage/public/stylesheets/nav_bar.css">
     <link rel="stylesheet" type="text/css" href="/PrivatePage/public/stylesheets/recipies.css">
     <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+
     <script src="https://kit.fontawesome.com/399f7f7414.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,46 +21,41 @@
 
         <main>
         <div class="wrapper-table">
-            <div class="title-table">
+                <div class="title-table">
                     <h1 class="noselect">Recipies</h1>
                     
                     <button id="add_subject" href="add.php"><i class="fas fa-plus"></i>Add Subject</button>
                 </div>
-                
-                <div class="recipies-table">
-                    <table class="recipies">
-                        <!-- <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Category</th>
-                                <th>Time needed</th>
-                                <th>Link</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead> -->
-                        <tbody>
-                            <tr class="main-row">
-                                <td>Fokhagymás tészta</td>
-                                <td>Tészta</td>
-                                <td>10 + 15</td>
-                                <td><a href="" class="recipie-link"></a>to recipie</td>
-                                <td><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></td>
-                            </tr>
-                            <tr class="sub-row">
-                                <td colspan="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quisquam.</td>
-                            </tr>
-                            <tr class="main-row">
-                                <td>Póréhagymás tepsis krumpli</td>
-                                <td>Krumpli</td>
-                                <td>20 + 35</td>
-                                <td><a href="" class="recipie-link"></a>to recipie</td>
-                                <td><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></td>
-                            </tr>
-                            <tr class="sub-row">
-                                <td colspan="5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quisquam.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                <div class="recipies-list">
+                    <ul id="accordion">
+                        <li class="accordionItem">
+                            <div class="main-row">
+                                <p class="col-title">Fokhagymás tészta</p>
+                                <p class="col-category">Tészta</p>
+                                <p class="col-time">10 + 15</p>
+                                <p class="col-link"><a href="www.gooogle.com" class="recipie-link"></a>to recipie</p>
+                                <p class="col-actions"><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></p>
+                            </div>
+                            <div class="sub-row">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Quaerat consequatur illum amet consequuntur quae quod temporibus placeat error officiis facilis?</p>
+                            </div>
+                        </li>
+                        <li class="accordionItem">
+                            <div class="main-row">
+                                <p class="col-title">Krumplis tészta</p>
+                                <p class="col-category">Krumpli, tészta</p>
+                                <p class="col-time">30 + 15</p>
+                                <p class="col-link"><a href="www.gooogle.com" class="recipie-link"></a>to recipie</p>
+                                <p class="col-actions"><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></p>
+                            </div>
+                            <div class="sub-row">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Quaerat consequatur illum amet consequuntur quae quod temporibus placeat error officiis facilis?</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -67,6 +63,7 @@
         <?php
             include '../partials/footer.php'
         ?>
+        <script src="/PrivatePage/public/javascripts/recipies.js"></script>
 </body>
 
 

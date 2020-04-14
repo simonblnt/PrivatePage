@@ -5,9 +5,7 @@
 </head>
 <body>
     <footer>
-        <div>
-            <p>© 2020 Simon Bálint. All rights reserved.</p>
-        </div>
+        © 2020 Simon Bálint. All rights reserved.
     </footer>
 </body>
 </html>
