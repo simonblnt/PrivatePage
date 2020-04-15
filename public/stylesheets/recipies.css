@@ -130,10 +130,11 @@
     flex: 1;
 }
 
-
-
 #accordion .sub-row{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+
     text-align: left;
     margin-left: 10px;
     color: var(--secondary-font-color);
@@ -145,6 +146,24 @@
     border-radius: 1pt 1pt 5pt 5pt;
     padding: 3px 3px 3px 3px;
 }
+
+#accordion .sub-row .upper-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+#accordion .sub-row .margin-row{
+  display: flex;
+  justify-content: center;
+}
+
+.ingredient-list{
+
+  list-style-type: circle;
+}
+
+
 #accordion .active .sub-row{
     max-height: fit-content;
 }
@@ -155,7 +174,7 @@
 
 .recipies-list p i {
   color: green;
-  padding: 10%;
+  padding-left: 10%;
   transition: 0.15s;
 }
 

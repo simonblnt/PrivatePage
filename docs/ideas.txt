@@ -37,9 +37,9 @@
 **
     - should change to a one-page app structure
         -> maybe it should only apply to main pages, e.g.: only one subjects page, only one work page etc.
-    - need something else instead of this accordion menu on the main nav, because sometimes the user have to chase
+    DONE - need something else instead of this accordion menu on the main nav, because sometimes the user have to chase
         the menu items this way
-    - !! should specify colors as variables !!
+    PARTLY DONE - !! should specify colors as variables !!
 
 2020-04-10:
 **
@@ -52,10 +52,28 @@
 * Recipies
 **
     - should add a counter to each recipie: "times cooked"/"times made" or something like that
-    - could add a calorie tracker later
+    - maybe add a calorie tracker later on
 
 2020-04-10:
 **
 * Main
 **
-    - main menu could look like the discord options menu
+    DONE - main menu could look like the discord options menu
+
+2020-04-15:
+**
+* Studies
+**
+    - exams and tests should have their own show page, but neither of them should have an index page, 
+        therefore they should be removed from the main nav
+    - subjects also should have their own show page, where their exams and tests can be seen
+
+**
+* Work
+**
+    - ideas should be a sortable and filterable table
+
+**
+* Recipies
+**
+    - details of a recipies should be a grid system (picture of food, list of ingredients, instructions)

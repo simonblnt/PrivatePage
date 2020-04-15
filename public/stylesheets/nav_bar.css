@@ -21,7 +21,7 @@
     cursor: inherit;
 }
 
-li {
+.main-nav li {
     color: fuchsia;
     border-bottom: 2px solid var(--third-bg-color);
     border-radius: 1pt;
@@ -63,6 +63,7 @@ li {
 
 .menu-title {
     margin: 0 0 0 5px;
+    font-size: 0.9em;
     font-variant: small-caps;
     color: var(--menu-title-font-color);
 }

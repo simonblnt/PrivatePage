@@ -38,8 +38,21 @@
                                 <p class="col-actions"><a href="edit"></a><i class="fas fa-pencil-alt"></i><a href="delete"></a><i class="fas fa-trash-alt"></i></p>
                             </div>
                             <div class="sub-row">
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Quaerat consequatur illum amet consequuntur quae quod temporibus placeat error officiis facilis?</p>
+                                <div class="upper-row">
+                                    <i class="fas fa-random"></i>
+
+                                    <ol class="ingredient-list">
+                                        <li>Liszt</li>
+                                        <li>Még több Liszt</li>
+                                        <li>Lisztek</li>
+                                    </ol>
+                                </div>
+                                <div class="lower-row">
+
+                                    <p class="instructions">Tegyük bele a lisztet. xd</p>
+
+                                </div>
+                                
                             </div>
                         </li>
                         <li class="accordionItem">
